@@ -1,0 +1,21 @@
+PODS:
+  - FMDB (2.2):
+    - FMDB/standard
+  - FMDB/common (2.2)
+  - FMDB/standard (2.2):
+    - FMDB/common
+  - Kiwi/ARC (2.2.4)
+  - Kiwi/NonARC (2.2.4)
+  - Kiwi/XCTest (2.2.4):
+    - Kiwi/ARC
+    - Kiwi/NonARC
+
+DEPENDENCIES:
+  - FMDB
+  - Kiwi/XCTest
+
+SPEC CHECKSUMS:
+  FMDB: 97472cfacf0d9e445e915704fb43b4b142799c36
+  Kiwi: d60d7498b640a16f58b01925fc3c8d7c4d809f66
+
+COCOAPODS: 0.29.0
